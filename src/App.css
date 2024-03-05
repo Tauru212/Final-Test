@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters > button:hover{
+  background-color: rgb(99, 99, 236);
+}
+
+.todo{
+  margin: 18px 0;
+  
+}
+
+.todo > input{
+  height: 40px;
+  width: 300px;
+}
+
+.todo > button:hover{
+  background-color: rgb(99, 99, 236);
+  color: #fff;
+}
+
+
+
+
+
